@@ -1,0 +1,108 @@
+body {color: #333333; background: #EEEEEE; margin: 3; padding: 3; text-align:center;}
+
+table {width: 100%; margin: 5; padding: 5; font-size: small}
+table td {padding: 0; border-width: 0; vertical-align: top; font-family: Verdana, Arial, Helvetica, sans-serif; text-align:left;}
+
+a {color: #666666; text-decoration: none; font-weight: normal; background-color: transparent;}
+a:hover {color: #000080;}
+
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+ul { margin: 2px; padding: 2px; list-style: decimal inside; text-align: left;}
+li { margin-left: 2px; list-style: square inside; color: #333333}
+
+input.formButton {}
+
+.item {border: 1px solid #FFFFFF;}
+.itemHead {padding: 3px; background-color: #EEEEEE; color: #FFFFFF;}
+.itemInfo {text-align: right; padding: 3px; background-color: #EEEEEE}
+.itemTitle a {font-size: 130%; font-weight: bold; font-variant: small-caps; color: #FFFFFF; background-color: transparent;}
+.itemPoster {font-size: 90%; font-style:italic;}
+.itemPostDate {font-size: 90%; font-style:italic;}
+.itemStats {font-size: 90%; font-style:italic;}
+.itemBody {padding-left: 5px;}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: #FFFFFF}
+.itemAdminLink {font-size: 90%;}
+.itemPermaLink {font-size: 90%;}
+
+th {background-color: #FFFFFF; color: #EEEEEE; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+td#headerbanner {width: 100%; background-color: #EEEEEE; vertical-align: middle; text-align:center;}
+td#headerbar {border-bottom: 1px solid #EEEEEE; background-image: url(hbar.gif);}
+
+td#leftcolumn {width: 170px; border-right: 1px solid #FFFFFF; font-size:12px;}
+td#leftcolumn th {background-color: #FFFFFF; color: #FFFFFF; vertical-align: middle;}
+td#leftcolumn div.blockTitle {padding: 3px; background-color: #FF00FF; color: #FFFFFF; font-weight: bold;}
+td#leftcolumn div.blockContent {padding: 3px; line-height: 120%; line-height: 120%;}
+
+
+td#centercolumn {font-size: 12px;}
+
+td#centercolumn th {background-color: #FFFFFF; color: #333333; vertical-align: middle;}
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn legend.blockTitle {padding: 3px; color: #EEEEEE; font-weight: bold; margin-top: 0px; margin-right: 0px; margin-left: 0px;}
+td#centerCcolumn div.blockContent {border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 3px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #EEEEEE; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #EEEEEE; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+
+div#content {text-align: left; padding: 8px; line-height: 120%;}
+
+td#rightcolumn {width: 170px; border-left: 1px solid #FFFFFF; font-size:12px;}
+td#rightcolumn th {background-color: #FFFFFF; color: #FFFFFF; vertical-align: middle;}
+td#rightcolumn div.blockTitle {padding: 3px; background-color: #FF00FF; color: #EEEEEE; font-weight: bold;}
+td#rightcolumn div.blockContent {padding: 3px; line-height: 120%;}
+
+tr#footerbar {text-align:center; background-image: url(hbar.gif);}
+
+td#mainmenu a {background-color: #EEEEEE; display: block; margin: 0; padding: 4px;}
+td#mainmenu a:hover {background-color: #FFFFFF;}
+td#mainmenu a.menuTop {padding-left: 3px; border-top: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+td#mainmenu a.menuMain {padding-left: 3px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+td#mainmenu a.menuSub {padding-left: 9px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+
+td#usermenu a {background-color: #EEEEEE; display: block; margin: 0; padding: 4px; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF;}
+td#usermenu a:hover {background-color: #FFFFFF;}
+td#usermenu a.menuTop {border-top: 1px solid #FFFFFF;}
+td#usermenu a.highlight {background-color: #fcc;}
+
+
+
+.outer {border: 1px solid #FFFFFF; background-color: #E9E9E9;}
+.head {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+.even {background-color: #dee3e7; padding: 5px;}
+.odd {background-color: #E9E9E9; padding: 5px;}
+.foot {background-color: #c2cdd6; padding: 5px; font-weight: bold;}
+tr.even td {background-color: #dee3e7; padding: 5px;}
+tr.odd td {background-color: #E9E9E9; padding: 5px;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #FFFFFF; color: #136C99; text-align: center; border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #FFFFFF; color: #333333; text-align: center; border-top: 1px solid #FFFFFF; border-left: 1px solid #FFFFFF; font-weight: bold; border-right: 1px solid #FFFFFF; border-bottom: 1px solid #FFFFFF; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #FFFFFF; font-weight:bold; border: 1px solid #FFFFFF; background-color: #FFFFFF; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #FFFFFF; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
